@@ -10,7 +10,7 @@ It sends alerts by email when potential breach items are detected, plus a daily 
 ```bash
 # Unzip into your home directory
 mkdir -p $HOME/breach_alert_bot
-unzip breach_alert_bot.zip -d $HOME/breach_alert_bot
+tar zxvf breach_bot.tar -d $HOME/breach_alert_bot
 cd $HOME/breach_alert_bot
 
 # Install dependencies
