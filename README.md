@@ -4,6 +4,7 @@ This bot monitors:
 - SEC 8-K current feed (alerts on Item 1.05 or security keywords)
 It sends alerts by email when potential breach items are detected, plus a daily heartbeat email with scan counts.
 
+Deployable on Raspberry Pi or Linux with systemd auto-start and log rotation.
 ---
 ## 1. Install
 
